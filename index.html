@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PH-tube</title>
+
+    <!-- daisy UI -->
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- tailwind CSS -->
+     <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <nav class="w-11/12 mx-auto flex justify-between border-b-4 border-[#17171720] p-4">
+            <div class="logo">
+                <img class="w-[120px]" src="Logo.png" alt="">
+            </div>
+             <div class="btn bg-[#8f8989b1]">sort by view</div>
+              <div class="btn bg-[#FF1F3D] text-white">blogs</div>
+        </nav>
+    </header>
+
+    <nav id="category-container" class="flex justify-center py-5 gap-5">
+       <div>
+         <button class="btn btn-sm bg-[#FF1F3D] p-4 text-white">All</button>
+       </div>
+        <!-- <button class="btn btn-sm bg-[#25252570] p-4">Music</button>
+        <button class="btn btn-sm bg-[#25252570] p-4">comedy</button>
+        <button class="btn btn-sm bg-[#25252570] p-4">drawing</button> -->
+    </nav>
+
+
+    <section class="w-11/12 mx-auto grid grid-cols-4 gap-4" id="videoContainer"></section>
+
+    <script src="script/index.js"></script>
+</body>
+</html>
